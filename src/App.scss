@@ -1,3 +1,26 @@
-.starter {
+* {
+  margin: 0;
+}
+
+.app {
+  background-image: url('https://images6.alphacoders.com/909/thumb-1920-909641.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  min-height: 100vh;
+  min-width: max-content;
+  box-sizing: border-box;
+}
+
+.pagination {
+  padding: 10px;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }

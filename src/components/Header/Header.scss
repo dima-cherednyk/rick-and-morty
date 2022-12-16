@@ -1,0 +1,12 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 35px;
+  padding: 10px 0;
+  background-color: purple;
+  z-index: 2;
+  margin-bottom: 15px;
+}
