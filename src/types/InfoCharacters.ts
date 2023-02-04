@@ -1,6 +1,6 @@
 import { Character } from './Character';
 
-export type InfoCharacters = {
+export interface InfoCharacters {
   info: {
     count: number,
     pages: number,
@@ -8,4 +8,4 @@ export type InfoCharacters = {
     prev: string | null,
   },
   results: Character[],
-};
+}

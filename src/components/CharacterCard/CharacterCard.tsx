@@ -9,13 +9,13 @@ import {
 } from '@mui/material';
 import React, { useState } from 'react';
 import { Character } from '../../types/Character';
-import './Cards.scss';
+import './CharacterCard.scss';
 
 type Props = {
   card: Character;
 };
 
-export const Cards: React.FC<Props> = ({ card }) => {
+export const CharacterCard: React.FC<Props> = ({ card }) => {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(!open);
 

@@ -14,7 +14,7 @@ import { useLocation, useSearchParams } from 'react-router-dom';
 import { getCharacters } from '../../api/characters';
 import { Character } from '../../types/Character';
 import { getSearchWith } from '../../utils/searchHelper';
-import { Cards } from '../Cards/Cards';
+import { CharacterCard } from '../CharacterCard/CharacterCard';
 import './CharactersPage.scss';
 
 export const CharactersPage: React.FC = () => {
@@ -246,7 +246,7 @@ export const CharactersPage: React.FC = () => {
                 ? (<li className="charactersPage-error">There is no character with such query.</li>)
                 : (
                   characters.map(card => (
-                    <li key={card.id}><Cards card={card} /></li>
+                    <li key={card.id}><CharacterCard card={card} /></li>
                   ))
                 )}
             </ul>

@@ -1,6 +1,6 @@
 import { Location } from './Location';
 
-export type InfoLocations = {
+export interface InfoLocations {
   info: {
     count: number,
     pages: number,
@@ -8,4 +8,4 @@ export type InfoLocations = {
     prev: string | null,
   },
   results: Location[],
-};
+}

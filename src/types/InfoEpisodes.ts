@@ -1,6 +1,6 @@
 import { Episode } from './Episode';
 
-export type InfoEpisodes = {
+export interface InfoEpisodes {
   info: {
     count: number,
     pages: number,
@@ -8,4 +8,4 @@ export type InfoEpisodes = {
     prev: string | null,
   },
   results: Episode[],
-};
+}
