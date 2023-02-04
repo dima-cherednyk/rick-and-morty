@@ -1,4 +1,4 @@
-# React TypeScript Starter Pack
+# Rick and Morty
 
 To use this template click `Use this template`
 
