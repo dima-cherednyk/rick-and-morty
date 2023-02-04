@@ -1,9 +1,5 @@
-# React TypeScript Starter Pack
-
-To use this template click `Use this template`
-
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+Rick and Morty
+====================
+Technologies: React, TypeScript, JavaScript, HTML, SCSS, MUI, API
+>
+[DEMO LINK](https://dima-cherednyk.github.io/rick-and-morty/)
